@@ -1,0 +1,39 @@
+<h1 style="color:red;">Shopping Cart</h1>
+<body style="background-color:	#800080;">
+
+<div class="shopping-cart">
+  <div class="product">
+    <div class="product-image">
+      <img src="https://s.cdpn.io/3/dingo-dog-bones.jpg">
+    </div>
+    <div class="product-details">`
+      <div class="product-title"style="color:red;">Dog Bones</div>
+    </div>
+    <div class="product-price"style="color:red;">50</div>
+    <div class="product-quantity">
+    </div>
+ <div class="product">
+    <div class="product-image">
+      <img src="https://s.cdpn.io/3/large-NutroNaturalChoiceAdultLambMealandRiceDryDogFood.png">
+    </div>
+    <div class="product-details">
+      <div class="product-title"style="color:red;">Adult Lamb and Rice Dog Food</div>
+    </div>
+    <div class="product-price"style="color:red;">60</div>
+    <div class="product-quantity">
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<body>
+
+<div data-ng-app="" data-ng-init="quantity=1;price=0">
+Quantity:<input type="number" ng-model="quantity">
+Price: <input type="number" ng-model="price">
+
+<p><b>Total cost:</b> {{quantity * price}}</p>
+
+</div>
+  </div>
+      
+      <button class="checkout"style="color:red;">Checkout</button>
+
+</div>
